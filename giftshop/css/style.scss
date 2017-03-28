@@ -1,0 +1,641 @@
+body{
+	min-width:1170px;
+	max-width:1170px;
+	margin:0 auto;
+	font-size:16px;
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+
+  header{
+  height:227px;
+  display:flex;
+  flex-direction:column;
+
+  li{
+  display:inline-block;
+  }
+
+  a{
+  color:black;
+  text-decoration:none;
+  }
+
+  a:hover{
+  text-decoration:underline;
+  }
+
+  .header--top{
+  height:38px;
+  display:flex;
+  justify-content:flex-end;
+
+  li{
+  padding-left:28px;
+  }
+  }
+
+.header--middle{
+   height:90px;
+   display:flex;
+   justify-content:space-between;
+  
+
+  li{
+  height:90px;
+  width:115px;
+  background:#0099cc;
+  text-align:center;
+  line-height:80px;
+  }
+
+  a{
+  color:white;
+  }
+
+  li:nth-child(even){
+  background:#ff6666;
+  }
+
+  li:nth-child(3){
+  padding-left:15px;
+  text-align:left;
+  background: #0099cc url(../img/special.png) 82%  42% no-repeat;
+  }
+
+  li:last-child{
+  width:140px;
+  text-align:center;
+  background: #ff6666 url(../img/cart.png) 82%  42% no-repeat;
+  }
+
+  li:hover{
+  box-shadow:inset 0px 0px 10px 10px snow;
+  }
+}
+
+nav{
+    margin-top:30px;
+	height:71px;
+	background:#0099cc;
+	display:flex;
+	justify-content:space-around;
+
+
+	li{
+	padding-left:48px;
+	}
+
+	a{
+	color:white;
+	}
+
+	li:nth-child(2){
+	text-align:center;
+	width:165px;
+	height:71px;
+	}
+
+	a:hover{
+	color:red;
+	}
+	
+
+
+}
+
+  }
+
+.content{
+	display:flex;
+	margin-top:15px;
+	width:100%;
+
+	.content--left{
+	width:57%;
+	displat:flex;
+	flex-direction:column;
+	margin-right:15px;
+
+	div:hover{
+	box-shadow:inset 0px 0px 3px 3px snow;
+	cursor:pointer;
+	}
+
+	.content--left__mens{
+	background:url(../img/menwear.png)no-repeat;
+	height:570px;
+	width:100%;
+
+
+	
+
+
+	}
+
+	form{
+	margin-top:15px;
+	display:block;
+	height:170px;
+	background:#ff6666 url(../img/search.png) 98% no-repeat;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+	input{
+	outline:none;
+	border:none;
+	width:485px;
+	height:70px;
+	}
+	}
+
+	.content--left__crafts{
+	margin-top:15px;
+	height:335px;
+	background:url(../img/crafts.png)no-repeat;
+	display:flex;
+	justify-content:flex-end;
+	align-items:flex-end;
+
+	a{
+	display:block;
+	height:55px;
+	width:53px;
+	background:#0099cc url(../img/special.png)no-repeat 55%;
+	}
+	a:last-child{
+	background:#ff6666 url(../img/cart.png)no-repeat 55%;
+	}
+    .crafts--hrefs{
+    display:flex;
+    margin-right:105px;
+    }
+
+    a:hover{
+     box-shadow:inset 0px 0px 3px 3px snow;
+    }
+	}
+	}
+
+	.content--right{
+	width:43%;
+	display:flex;
+	flex-direction:column;
+
+	div:hover{
+	box-shadow:inset 0px 0px 3px 3px snow;
+	cursor:pointer;
+	}
+
+
+   .content--right__woomen{
+   background:url(../img/womenwear.png)no-repeat;
+   height:320px;
+   }
+
+   .content--right__baby{
+   margin-top:15px;
+   background:url(../img/babyshop.png)no-repeat;
+   height:245px;
+   display:flex;
+   justify-content:flex-end;
+   align-items:flex-end;
+
+   a:hover{
+     box-shadow:inset 0px 0px 3px 3px snow;
+    }
+
+   p{
+   display:block;
+   height:55px;
+   width:292px;
+   display:flex;
+   margin-right:84px;
+   }
+
+   b{
+   display:block;
+   color:white;
+   text-align:center;
+   line-height:50px;
+   width:103px;
+   height:55px;
+   background:#0099cc;
+   }
+   a{
+	display:block;
+	height:55px;
+	width:55px;
+	background:#0099cc url(../img/special.png)no-repeat 55%;
+	}
+	a:nth-child(3){
+	background:#ff6666 url(../img/cart.png)no-repeat 55%;
+	}
+
+	i{
+	display:block;
+	height:55px;
+	width:84px;
+	background:black;
+	color:white;
+	text-align:center;
+	line-height:55px;
+	}  
+}
+
+.content--right__jewelry{
+	margin-top:15px;
+	background:url(../img/jewelery.png)no-repeat;
+	height:510px;
+}
+}
+}
+.NewProducts{
+	height:332px;
+	display:flex;
+	flex-direction:column;
+
+
+.NewProducts--title{
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-end;
+	border-bottom:1px solid grey;
+
+	height:105px;
+	.arrows{
+	display:flex;
+	div{
+	margin-left:2px;
+	width:71px;
+	height:80px;
+	background:#333333 url(../img/left.png)no-repeat 55%;
+	cursor:pointer;
+	}
+	div:nth-child(2){
+	background:#333333 url(../img/right.png)no-repeat 55%;
+	}
+	 div:hover{
+	 background:#0099cc url(../img/left.png)no-repeat 55%;
+	 }
+     div:nth-child(2):hover{
+      background:#0099cc url(../img/right.png)no-repeat 55%;
+     }
+
+
+	}
+	}
+
+	a:hover{
+     box-shadow: inset 0 0 5px 5px snow;
+	}
+
+
+
+	.NewProducts--hrefs{
+	margin-top:27px;
+	display:flex;
+	justify-content:space-between;
+
+
+	a:first-child{
+	display:block;
+	height:200px;
+	width:31%;
+	background:url(../img/newbag.png)no-repeat;
+	}
+
+	.NewProducts--hrefs__babyshop{
+	height:200px;
+	width:31%;
+	background:url(../img/newbabyshop.png)no-repeat;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+	p{
+	display:block;
+	height:55px;
+	width:294px;
+	display:flex;
+	}
+b{
+   display:block;
+   color:white;
+   text-align:center;
+   line-height:50px;
+   width:103px;
+   height:55px;
+   background:#0099cc;
+   }
+
+   a{
+	display:block;
+	height:55px;
+	width:55px;
+	background:#0099cc url(../img/special.png)no-repeat 55%;
+	}
+	a:nth-child(3){
+	background:#ff6666 url(../img/cart.png)no-repeat 55%;
+	}
+
+	
+	i{
+	display:block;
+	height:55px;
+	width:84px;
+	background:black;
+	color:white;
+	text-align:center;
+	line-height:55px;
+	}  
+}
+
+.NewProducts--hrefs__babyshop:hover{
+   box-shadow: inset 0 0 5px 5px snow;
+}
+
+
+
+
+
+	}
+
+	a:last-child{
+	display:block;
+	height:200px;
+	width:31%;
+	background:url(../img/newwatches.png)no-repeat;
+	}
+
+	
+}
+
+.Featured{
+	height:536px;
+	display:flex;
+	flex-direction:column;
+
+	.Featured--title{
+	height:107px;
+	border-bottom:1px solid grey;
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-end;
+
+
+.arrows{
+	display:flex;
+	div{
+	margin-left:2px;
+	width:71px;
+	height:80px;
+	background:#333333 url(../img/left.png)no-repeat 55%;
+	cursor:pointer;
+	}
+	div:nth-child(2){
+	background:#333333 url(../img/right.png)no-repeat 55%;
+	}
+	 div:hover{
+	 background:#ff6666 url(../img/left.png)no-repeat 55%;
+	 }
+     div:nth-child(2):hover{
+      background:#ff6666 url(../img/right.png)no-repeat 55%;
+     }
+
+
+	}
+
+
+
+
+	}
+
+	.Featured--content{
+	margin-top:29px;
+	display:flex;
+	justify-content:space-between;
+
+  figure{
+  margin:0;
+  width:270px;
+  display:flex;
+  flex-direction:column;
+  }
+
+  figcaption{
+  height:107px;
+  border:1px solid grey;
+  border-top:transparent;
+
+  span{
+  color:red;
+  font-size:13px;
+   line-height:5px;
+  }
+
+  h2{
+  font-size:18px;
+  line-height:2px;
+  }
+
+  nav{
+  border-top:1px solid grey;
+  display:flex;
+
+  .next, .gift, .cart{
+  display:block;
+  width:57px;
+  height:53px;
+  border:1px solid grey;
+  }
+
+  .next{
+  background:url(../img/diffarrows.png)no-repeat 55%;
+  }
+
+  .gift{
+   background:url(../img/greygift.png)no-repeat 55%;
+  }
+
+  .cart{
+   background:url(../img/greycart.png)no-repeat 55%;
+  }
+
+  a:hover{
+  box-shadow:inset 0 0 5px 5px grey;
+  }
+  
+  b{
+  width:100px;
+  display:block;
+  color:white;
+  background:#ff6666;
+  text-align:center;
+  line-height:55px;
+  }
+  }
+  }
+
+	}
+}
+
+.who{
+	.who--features{
+	margin-top:30px;
+	display:flex;
+	justify-content:space-between;
+	}
+
+
+a{ 
+	display:block;
+	width:55%;
+	height:60px;
+	background:#0099cc;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-size:27px;
+	line-height:55px;
+	margin:0 auto;
+	 margin-top:30px;
+}
+ a:hover{
+  box-shadow:inset 0 0 5px 5px snow;
+  }
+}
+
+footer{
+	height:426px;
+	display:flex;
+	justify-content:space-between;
+
+	li{
+	list-style-type:none;
+	}
+
+	a:hover{
+	text-decoration:underline;
+	}
+
+	a{
+	color:black;
+	text-decoration:none;
+	line-height:30px;
+	}
+
+	h2{
+	text-transform:uppercase;
+	}
+
+
+	.footer--sign{
+	display:flex;
+	flex-direction:column;
+
+	input{
+	width:376px;
+	height:72px;
+	text-align:center;
+	outline:none;
+	border-bottom:none;
+	}
+	button{
+	height:51px;
+	width:376px;
+	background:#0099cc;
+	color:white;
+	border:none;
+	}
+
+	button:hover{
+	box-shadow:inset 0 0 5px 5px snow;
+	}
+	}
+
+	.footer--sign__socials{
+	a{
+	padding-left:11px;
+	}
+
+	a:hover{
+	box-shadow:inset 0 0 5px 5px snow;
+	}
+	}
+}
+
+.copyright{
+  width:1170px;
+	height:66px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+
+	b{
+	color:red;
+	}
+}
+
+
+.droplist--items{
+    margin-left:271px;
+	width:263px;
+    background:rgba(255,255,255,0.8);
+    display:none;
+
+    img{
+    float:left;
+    }
+
+    div{
+    //display:flex;
+    //flex-direction:column;
+    height:115px;
+    text-align:left;
+    border-bottom:1px solid grey;
+    
+
+    h2{
+    color:red;
+    font-size:16px;
+    line-height:15px;
+    }
+    span{
+    font-size:14px;
+    line-height:14px;
+
+    }
+
+    a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    height:23px;
+    width:117px;
+    text-align:center;
+    background:#0099cc;
+    margin-left:80px;
+    font-size:12px;
+     line-height:14px;
+    }
+
+    a:hover{
+    box-shadow: 0 0 2px 2px snow;
+    }
+}
+a{
+	color:red;
+	text-decoration:none;
+}
+}
+
+.show--droplist{
+	display:block;
+	z-index:55;
+	}
